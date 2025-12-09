@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: ahmet
     password: 020900
-    url: jdbc:postgresql://localhost:5432/user_profiledb_rituelpazarlama
+    url: jdbc:postgresql://pazarlama-test-postgres-db:5432/user_profiledb_rituelpazarlama
   data:
     redis:
       host: pazarlama-test-redis-cache
