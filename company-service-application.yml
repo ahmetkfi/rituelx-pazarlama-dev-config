@@ -5,17 +5,17 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: ahmet
     password: 020900
-    url: jdbc:postgresql://localhost:5432/compnaydb_rituelpazarlama
+    url: jdbc:postgresql://pazarlama-test-postgres-db:5432/compnaydb_rituelpazarlama
   data:
     redis:
-      host: localhost
+      host: pazarlama-test-redis-cache
       port: 6379
       password: "1alexdegil41*?"
   jpa:
     hibernate:
       ddl-auto: update
   elasticsearch:
-    uris: http://localhost:9200
+    uris: http://pazarlama-test-elasticsearch:9200
       
 jwt:
   secret: b85ad78baba523b5c1d307c5bf9b96ac1d5c099f56787539f9a2ed3aae
