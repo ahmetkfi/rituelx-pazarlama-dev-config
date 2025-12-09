@@ -8,7 +8,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/log_service_rituelpazarlama
   data:
     redis:
-      host: localhost
+      host: pazarlama-test-redis-cache
       port: 6379
       password: "1alexdegil41*?"
   jpa:
