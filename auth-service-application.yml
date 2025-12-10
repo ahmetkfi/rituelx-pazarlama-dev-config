@@ -26,6 +26,8 @@ external:
     url:
       log-uri: ${LOG_SERVICE_CLIENT_URI}
       user-profile-uri: ${USER_PROFILE_SERVICE_CLIENT_URI}
+    domain:
+      cookie-domain: ${COOKIE_DOMAIN}
       
 
   
