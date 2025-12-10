@@ -27,3 +27,8 @@ gcp:
   project-id: fabled-web-466708-s2
   bucket-name: rituelx_pazarlama_documents_bucket
   credentials-location: classpath:gcs-key.json 
+external:
+  service:
+    url:
+      log-uri: ${LOG_SERVICE_CLIENT_URI}
+      user-profile-uri: ${USER_PROFILE_SERVICE_CLIENT_URI}
