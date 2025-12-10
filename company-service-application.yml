@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: ahmet
     password: "020900"
-    url: jdbc:postgresql://pazarlama-test-postgres-db:5432/compnaydb_rituelpazarlama
+    url: jdbc:postgresql://pazarlama-test-postgres-db:5432/companydb_rituelpazarlama
 
   # Redis için doğru konum: spring.data.redis.*
   data:
