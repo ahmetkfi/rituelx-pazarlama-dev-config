@@ -22,5 +22,11 @@ jwt:
   expiration: 3600000
   refresh-token:
     expiration-ms: 1209600000
+external:
+  service:
+    url:
+      log-uri: ${LOG_SERVICE_CLIENT_URI}
+      user-profile-uri: ${USER_PROFILE_SERVICE_CLIENT_URI}
+      
 
   
