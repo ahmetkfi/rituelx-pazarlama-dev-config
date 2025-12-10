@@ -25,3 +25,7 @@ jwt:
 cloudinary:
   api-key: 141285467799214
   api-secret: NiULcQawF6EyMaBh4lcxKmhqTTk
+external:
+  service:
+    url:
+      log-uri: ${LOG_SERVICE_CLIENT_URI}
