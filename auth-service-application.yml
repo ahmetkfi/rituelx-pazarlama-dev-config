@@ -15,6 +15,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  
+  profiles:
+    active: ${ACTIVE_PROFILE}
+  
 
 jwt:
   secret: b85ad78baba523b5c1d307c5bf9b96ac1d5c099f56787539f9a2ed3aae
